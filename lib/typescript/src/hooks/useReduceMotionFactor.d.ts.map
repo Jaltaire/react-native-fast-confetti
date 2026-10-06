@@ -1,0 +1,1 @@
+{"version":3,"file":"useReduceMotionFactor.d.ts","sourceRoot":"","sources":["../../../../src/hooks/useReduceMotionFactor.ts"],"names":[],"mappings":"AAIA,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,UAAU,CAAC;AAEnD,wBAAgB,qBAAqB,CACnC,MAAM,EAAE,kBAAkB,GAAG,SAAS,GACrC;IAAE,MAAM,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,OAAO,CAAA;CAAE,CA4DpC"}
