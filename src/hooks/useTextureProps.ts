@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import type { SkImage, SkSVG } from '@shopify/react-native-skia';
+import type { SkImage, SkSVG } from 'react-native-skia';
 import type { TextureInfo } from './useConfettiFlakes';
 
 type TextureRootProps =

@@ -10,7 +10,7 @@ import {
   LinearGradient,
   ImageSVG,
   Image,
-} from '@shopify/react-native-skia';
+} from 'react-native-skia';
 import type { SizeVariation, ColorRange } from './useConfettiFlakes';
 
 function renderAtlasCell(

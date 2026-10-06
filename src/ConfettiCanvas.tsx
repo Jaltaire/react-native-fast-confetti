@@ -1,5 +1,5 @@
 import type { ComponentProps } from 'react';
-import { Canvas, Atlas } from '@shopify/react-native-skia';
+import { Canvas, Atlas } from 'react-native-skia';
 import { StyleSheet, View } from 'react-native';
 import type { LayoutChangeEvent, StyleProp, ViewStyle } from 'react-native';
 

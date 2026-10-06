@@ -26,7 +26,7 @@ The fastest confetti animation library for React Native, powered by Skia Atlas A
 ## Installation
 
 > [!IMPORTANT]
-> This library depends on [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/guides/compatibility/), [@shopify/react-native-skia](https://github.com/Shopify/react-native-skia), and [react-native-worklets](https://docs.swmansion.com/react-native-worklets/docs/guides/compatibility/). Make sure to install those first.
+> This library depends on [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/guides/compatibility/), [react-native-skia](https://github.com/wcandillon/react-native-skia), and [react-native-worklets](https://docs.swmansion.com/react-native-worklets/docs/guides/compatibility/). Make sure to install those first.
 
 ```sh
 yarn add react-native-fast-confetti
@@ -192,7 +192,7 @@ Same as `<Confetti />` except `verticalSpacing` defaults to `200`.
 Pass a Skia image or SVG on the parent component or on individual Flake children. Flake-level textures override the parent default.
 
 ```tsx
-import { useImage, useSVG } from '@shopify/react-native-skia';
+import { useImage, useSVG } from 'react-native-skia';
 import { Confetti } from 'react-native-fast-confetti';
 
 const moneyImage = useImage(require('./money.png'));
@@ -433,7 +433,7 @@ Define flake sizes as children of any confetti component (or origin).
 ## Compatibility
 
 > [!IMPORTANT]
-> This library does not depend on a specific React Native version directly. Compatibility depends on [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/guides/compatibility/), [React Native Worklets](https://docs.swmansion.com/react-native-worklets/docs/guides/compatibility/), and [React Native Skia](https://github.com/Shopify/react-native-skia). Skia does not publish a Reanimated-style compatibility matrix, so use its [installation requirements](https://shopify.github.io/react-native-skia/docs/getting-started/installation/) as the source of truth.
+> This library does not depend on a specific React Native version directly. Compatibility depends on [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/docs/guides/compatibility/), [React Native Worklets](https://docs.swmansion.com/react-native-worklets/docs/guides/compatibility/), and [React Native Skia](https://github.com/wcandillon/react-native-skia). Skia does not publish a Reanimated-style compatibility matrix, so use its [installation requirements](https://wcandillon.github.io/react-native-skia/docs/getting-started/installation/) as the source of truth.
 
 | Package version | Tested with React Native | Tested with Skia | Tested with Reanimated | Worklets | Minimum inferred from API usage |
 | --- | --- | --- | --- | --- | --- |
